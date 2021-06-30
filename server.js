@@ -15,7 +15,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/arcane-atoll-91482', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/My-Budget', {
   useNewUrlParser: true,
   useFindAndModify: false
 });
